@@ -48,7 +48,6 @@ A comprehensive, full-stack quiz management platform with AI-generated questions
 
 - **Python 3.8+** - [Download](https://www.python.org/downloads/)
 - **Node.js 16+** - [Download](https://nodejs.org/)
-- **MongoDB** - [Download MongoDB Compass](https://www.mongodb.com/products/compass)
 - **OpenAI API Key** - [Get your key](https://platform.openai.com/api-keys) (optional for hardcoded questions)
 
 ### ⚡ 3-Minute Setup
@@ -100,7 +99,7 @@ npm install
 npm run dev
 ```
 
-**Frontend runs at:** `http://localhost:5173`
+**Frontend runs at:** `http://localhost:3000
 
 #### 4️⃣ Configure OpenAI (Optional)
 
@@ -121,7 +120,7 @@ OPENAI_API_KEY=your-actual-openai-api-key-here
 
 ### Creating an Account
 
-1. Open `http://localhost:5173` in your browser
+1. Open `http://localhost:3000` in your browser
 2. Click **"Sign Up"**
 3. Fill in your details (username, email, password)
 4. Click **"Create Account"**
@@ -198,7 +197,7 @@ Quiz-Management-System/
 ### Backend
 - **Framework:** Django 4.2.7
 - **API:** Django REST Framework 3.14.0
-- **Database:** MongoDB (via Djongo)
+- **Database:**  Djongo
 - **Authentication:** Token-based auth
 - **AI:** OpenAI GPT-3.5 Turbo
 
@@ -396,14 +395,6 @@ taskkill /PID <PID> /F
 
 # Linux/Mac:
 lsof -ti:8000 | xargs kill -9
-```
-
-**MongoDB connection error:**
-```bash
-# Ensure MongoDB is running
-# Check connection string in .env
-MONGODB_URI=mongodb://localhost:27017/quiz_management_db
-```
 
 **OpenAI API errors:**
 - Verify API key is correct
