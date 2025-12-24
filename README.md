@@ -13,14 +13,14 @@ A comprehensive, full-stack quiz management platform with AI-generated questions
 
 ### 🤖 AI-Powered Quiz Generation
 - **OpenAI Integration** - Automatically generate questions using GPT-3.5 Turbo
-- **Smart Question Bank** - 110+ hardcoded questions for instant testing
+- **Smart Question Bank** - 150 hardcoded questions for instant testing
 - **Customizable** - Choose number of questions (5-100) and difficulty level
 - **Topic-Specific** - Questions tailored to selected subject and level
 
 ### 📚 Comprehensive Content
 - **3 Main Categories:** Academics, Computer Science, Government Exams
 - **Multiple Levels:** 10th Grade, 12th Grade, Core Subjects, Programming, National/State Level
-- **17+ Subjects:** Physics, Chemistry, Data Structures, Python, UPSC, SSC CGL, and more
+- **33+ Subjects:** Physics, Chemistry, Data Structures, Python, UPSC, SSC CGL, and more
 
 ### 🎮 Gamification System
 - **XP & Levels** - Earn experience points and level up
@@ -112,7 +112,7 @@ OPENAI_API_KEY=your-actual-openai-api-key-here
 ```
 
 **For Hardcoded Questions:**
-- No configuration needed! The system includes 110+ pre-loaded questions
+- No configuration needed! The system includes 150 pre-loaded questions
 - Perfect for testing and offline usage
 
 ---
@@ -303,7 +303,7 @@ User Views Results
 ### Hardcoded Questions Mode
 
 For instant testing without API:
-- 110+ pre-loaded questions across 11 subjects
+- 150 pre-loaded questions across 15 subjects
 - Instant quiz generation (no waiting)
 - Perfect for development and offline use
 - No OpenAI API key required
@@ -517,7 +517,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - Initial work
+- **[Your Name]** - Initial work
 
 ---
 
@@ -569,12 +569,12 @@ This project is perfect for:
 
 ## 📈 Project Stats
 
-- **Backend Code:** ~3,000 lines
-- **Frontend Code:** ~2,500 lines
-- **API Endpoints:** 15+
-- **Database Models:** 10+
-- **Hardcoded Questions:** 110+
-- **Supported Subjects:** 17+
+- **Backend Code:** ~2,400 lines
+- **Frontend Code:** ~9,000 lines
+- **API Endpoints:** 23+
+- **Database Models:** 12+
+- **Hardcoded Questions:** 150
+- **Supported Subjects:** 33+
 - **Categories:** 3
 - **Levels:** 6
 
@@ -586,4 +586,4 @@ This project is perfect for:
 
 **Built with ❤️ using Django, React, and OpenAI**
 
-**Last Updated:** December 16, 2025
+**Last Updated:** December 24, 2025
